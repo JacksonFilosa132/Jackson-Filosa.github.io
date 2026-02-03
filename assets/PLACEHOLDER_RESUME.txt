@@ -1,0 +1,7 @@
+This is a placeholder file. To add your actual resume to the live site:
+
+1) Replace or upload a PDF named `resume.pdf` into the `assets/` directory.
+   - Path: `assets/resume.pdf`
+2) The "Download Resume" button on the homepage will then link directly to it and the PDF will be embedded in the page when supported.
+
+If you want me to upload your resume for you, attach the PDF here or tell me the file path and I'll place it in `assets/resume.pdf`.

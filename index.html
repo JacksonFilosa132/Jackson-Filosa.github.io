@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Jackson Filosa — Resume & Bio</title>
+  <meta name="description" content="Resume, bio, LinkedIn and certifications">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" href="https://github.githubassets.com/favicons/favicon.png">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 id="name">Jackson Filosa</h1>
+      <p class="tagline">Software developer • Problem solver • Lifelong learner</p>
+      <p class="bio-short">Software engineer building accessible, high-performance web applications with JavaScript, TypeScript, React, and Node.js.</p>
+      <div class="actions">
+        <a class="btn primary" href="assets/resume.pdf" download>Download Resume (PDF)</a>
+        <a class="btn" href="https://www.linkedin.com/in/jackson-filosa/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about">
+      <h2>About / Bio</h2>
+      <p><strong>Jackson Filosa</strong> is a software engineer who builds accessible, high-performance web applications using <strong>JavaScript, TypeScript, React, and Node.js</strong>. He focuses on designing maintainable frontend architectures, improving performance, and automating developer workflows. Most recently, Jackson led a project that significantly improved user experience and performance, and he frequently contributes to open-source tools and developer communities. He is seeking frontend or full‑stack roles where he can combine product-focused engineering with mentorship and continuous learning.</p>
+    </section>
+
+    <section id="resume">
+      <h2>Resume</h2>
+      <p>You can download your resume using the "Download Resume" button above. To show your resume inline, upload a PDF named <code>assets/resume.pdf</code> and it will be available here.</p>
+      <div class="resume-embed">
+        <!-- If browser supports PDF embedding it will show, otherwise the download link is used -->
+        <iframe src="assets/resume.pdf" title="Resume" aria-label="Resume" style="width:100%; height:600px; border:0;" loading="lazy"></iframe>
+      </div>
+    </section>
+
+    <section id="certifications">
+      <h2>Certifications ✅</h2>
+      <p>List certifications you completed below. Add links or badges where available.</p>
+      <ul>
+        <li>Example: Professional Certificate — Institution (Year)</li>
+        <li>Example: Certified Something — Issuer (Year)</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Prefer email or LinkedIn messages. Replace with your preferred contact method.</p>
+      <p><a href="https://www.linkedin.com/in/jackson-filosa/" target="_blank" rel="noopener noreferrer">LinkedIn profile</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Jackson Filosa — Built with GitHub Pages</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
