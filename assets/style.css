@@ -314,38 +314,6 @@ ul li a:hover {
   transform: translateX(4px);
 }
 
-.cert-note {
-  margin-top: 2rem;
-  padding: 1.5rem;
-  background: rgba(59, 130, 246, 0.08);
-  border-left: 4px solid var(--accent-primary);
-  border-radius: 8px;
-}
-
-.cert-note p {
-  margin: 0 0 1rem 0;
-  color: var(--text-primary);
-}
-
-.cert-note ol {
-  margin: 0;
-  padding-left: 1.5rem;
-}
-
-.cert-note ol li {
-  color: var(--text-secondary);
-  margin-bottom: 0.5rem;
-}
-
-.cert-note code {
-  background: var(--bg-secondary);
-  padding: 0.2rem 0.5rem;
-  border-radius: 4px;
-  font-size: 0.9rem;
-  color: var(--accent-secondary);
-  border: 1px solid var(--border-color);
-}
-
 /* Contact Section Enhancement */
 #contact {
   background: linear-gradient(135deg, rgba(59, 130, 246, 0.05) 0%, transparent 100%);
